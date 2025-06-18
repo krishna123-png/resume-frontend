@@ -27,7 +27,7 @@ body {
     background-color: #75a6e9;
     display: flex;
     justify-content: flex-end;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .generate-page-nav-link > div {
