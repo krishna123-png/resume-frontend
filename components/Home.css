@@ -1,0 +1,393 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-page-container {
+    width: 100vw;
+    height: 100vh;
+    /*max-width: 1000px;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    width: 100vw;
+    /*max-width: 1000px;*/
+    /*background: linear-gradient(to left, #b6d3ef, #cfe1fe);*/
+}
+
+.heading-para-button {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left, #cfe1fe 35%);
+    justify-content: center;
+    padding: 3rem 0 3rem 3rem;
+}
+
+.nav-link {
+    background: linear-gradient(to left, #cfe1fe 35%);
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+}
+
+.nav-link > div {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.nav-link > div > a {
+    text-decoration: none;
+    color: #162135;
+    font: bold;
+}
+
+.home-page-nav-link {
+    background: linear-gradient(to left, #cfe1fe 35%);
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+}
+
+.home-page-nav-link > div {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.home-page-nav-link div > a {
+    text-decoration: none;
+    color: #162135;
+    font-weight: bold;
+}
+
+.home-page-nav-link div > button {
+    background-color: inherit;
+    color: #162135;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.heading-para-button > p {
+    font-size: 1.25rem;
+    max-width: 650px;
+}
+
+.register-page-link, .generate-page-link {
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    width: fit-content;
+    padding: 0.75rem 1.5rem;
+    background-color: #051b42;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.register-page-link:hover, .generate-page-link {
+  background-color: #03122b;
+}
+
+
+.image {
+    flex: 1;
+    background: linear-gradient(to left, #cfe1fe);
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #162135;
+}
+
+.home-h3 {
+    font-size: 1.75rem;
+    color: #162135;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.home-p {
+    color: #4f525c;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+
+.description {
+    flex: 1;
+    display: flex;
+    background-color: white;
+    padding: 3rem 0 3rem 0;
+
+}
+
+.header-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*.header-holder {
+    align-self: center;
+}*/
+
+.header-holder > img {
+    align-self: center;
+}
+
+.ai-powered {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-download {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-integration {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-powered > p, .pdf-download > p, .email-integration > p {
+    max-width: 80%;
+    text-align: center;
+}
+
+/*.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #cfe1fe;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #041033;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #041033;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #041033;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user-info {
+  font-weight: 600;
+  color: #041033;
+  margin-right: 1rem;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+}*/
+
+
+@media (max-width: 910px) {
+ 
+   .heading-para-button {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    }
+
+    .description {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .home-h1 {
+        font-size: 2rem;
+    }
+
+    .home-h3 {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (max-width: 699px) {
+    .heading-para-button {
+        flex: 1.5;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .description {
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .image {
+        flex: 1;
+    }
+
+    .home-h1 {
+        font-size: 2rem;
+    }
+
+    .home-h3 {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .heading-para-button {
+        flex: 1.25;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .description {
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .image {
+        flex: 1;
+    }
+
+    .home-h1 {
+        font-size: 2rem;
+    }
+
+    .home-h3 {
+        font-size: 1.25rem;
+    }   
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .heading-para-button {
+        width: 100%;
+        flex: none;
+        background: linear-gradient(to bottom, #cfe1fe);
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .home-page-nav-link {
+        justify-content: flex-start;
+    }
+
+    .home-page-nav-link > div {
+        margin: 0;
+        max-width: 80%;
+        gap: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .heading-para-button > p {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .image {
+        background: linear-gradient(to bottom, #cfe1fe);
+        flex: none;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-h1 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .home-h3 {
+        font-size: 1.25rem;
+    }
+
+    .description {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ai-powered > p, .email-integration > p, .pdf-download > p {
+        max-width: 65%;
+    }
+}
+
+
+@media (max-width: 305px) {
+    .home-page-nav-link > div {
+        padding: 0;
+    }
+}
+
+
+

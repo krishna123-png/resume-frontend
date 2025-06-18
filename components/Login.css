@@ -1,0 +1,99 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-page-wrapper {
+    background: linear-gradient(to bottom left, #cfe1fe 30%, #d9e6fb 55%, white 90%);  /*d9e6fb*/
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page-container {
+    border-radius: 5px;
+    max-width: 350px;
+    width: 80%;
+    height: fit-content;
+    padding: 3rem;
+    background-color: white;
+}
+
+.login-page-container > .login-h3 {
+    color: #041033;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.login-page-container > form > label {
+    color: #041033;
+}
+
+.login-page-container > form > input {
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.login-page-container > form > button {
+    background-color: #041033;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.login-page-container > p {
+    color: #041033;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.register-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .login-page-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .login-page-container > form > input {
+    padding: 0.5rem 1rem;
+  }
+
+  .login-page-container > form > button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+  }
+
+  .login-page-container > form > button:hover {
+    background-color: #163c8c;
+    cursor: pointer;
+  }
+
+  .login-page-container > .login-h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

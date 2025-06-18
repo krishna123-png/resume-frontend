@@ -1,0 +1,125 @@
+/* Base structure */
+
+.wait-submission {
+  background-color: #e6f0fa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submission-page-nav-link {
+  width: 100vw;
+  background-color: #e6f0fa;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 0;
+}
+
+.submission-page-nav-link > div {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.submission-page-nav-link > div > a {
+  text-decoration: none;
+  color: #041033;
+  font-weight: bold;
+}
+
+.submissions-wrapper {
+  padding: 2rem;
+  background-color: #e6f0fa;
+  min-height: 100vh;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Heading */
+.submissions-wrapper .sub-h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #001944;
+  margin-bottom: 2rem;
+}
+
+/* Table container */
+.submission-table {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* Table element */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+  color: #041033;
+}
+
+th {
+  background-color: #cfe1fe;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Data cell */
+td {
+  font-size: 0.95rem;
+}
+
+/* View Button */
+.result-link {
+  background-color: #041033;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.result-link:hover {
+  background-color: #002244;
+}
+
+/* Loading Text */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  color: #041033;
+}
+
+/* Responsive Adjust*/
+
+@media (max-width: 415px) {
+    .submissions-wrapper {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 310px) {
+    th, td {
+        padding: 0.25rem;
+    }
+}
