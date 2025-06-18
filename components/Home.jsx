@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { AuthContext } from "../src/App"
 import './Home.css'
 import resumePDF from '../src/assets/ResumePDF.jpg'
-import aiPowered from '../src/assets/Aipowered.jpg'
+import aiPowered from '../src/assets/AIpowered.jpg'
 import pdfDownload from '../src/assets/instantPDFdownload.jpg'
 import emailIntegration from '../src/assets/Email-Integration.jpg'
 
