@@ -1,12 +1,47 @@
-# React + Vite
+### ✅ **Frontend Repository: `resume-coverletter-frontend`**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```md
+# AI Resume & Cover Letter Generator - Frontend
 
-Currently, two official plugins are available:
+This is the frontend of the AI Resume & Cover Letter Generator. It allows users to register, login, fill out resume forms, and download or email AI-generated resumes and cover letters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js (Vite)
+- Axios
+- React Router
+- Context API (for global auth state)
+- CSS (Responsive custom styling)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Pages and Components
+
+- `Home` – Landing page with call-to-action
+- `Register` – User registration
+- `Login` – Secure login with token management
+- `Generate` – Form to create resume and cover letter
+- `Result` – Displays AI-generated results with download options
+- `Submissions` – History of user submissions
+- `Profile` – User dashboard with submission summary
+- `EditProfile` – Update user profile
+- `NotFound` – 404 fallback page
+- `Navbar` – Dynamic nav bar based on auth state
+
+## ⚙️ API Integration
+
+All API calls are made to a secure backend using relative paths.
+
+🧠 Features
+Generate resumes & cover letters using AI
+
+Store results in submission history
+
+Download documents as PDF
+
+Email integration for auto-delivery
+
+Fully responsive and professional UI/UX
+
+🛠️ Deployment
+The frontend is deployed on Vercel and connected to the backend on Render.
+
+
